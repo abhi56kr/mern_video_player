@@ -1,14 +1,26 @@
-# Ignore Mac system files
-.DS_store
+# Node.js
+node_modules/
 
-# Ignore node_modules folder
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Ignore all text files
-*.txt
+# Dependency directories
+pids
+logs
+*.pid
+*.seed
+*.pid.lock
 
-# Ignore files related to API keys
-.env
+# Optional npm cache directory
+.npm
 
-# Ignore SASS config files
-.sass-cache
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Environment variables
+.env*
